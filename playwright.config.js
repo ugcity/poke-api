@@ -9,6 +9,7 @@ const path = require('path');
 const config = {
   testDir: './tests',
 
+
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
 
@@ -20,6 +21,7 @@ const config = {
      */
     timeout: 5000
   },
+
 
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -39,8 +41,7 @@ const config = {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     baseURL: 'https://pokeapi.co/api/v2/',
-
-
+  
 
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
