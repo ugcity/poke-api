@@ -6,5 +6,5 @@ orbs:
 workflows:
   test_my_app:
     jobs:
-      - node/cheese:
+      - node/test:
           version: 16.15.1 # replace node version
