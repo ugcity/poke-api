@@ -1,10 +1,10 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@x.y # replace orb version https://circleci.com/developer/orbs/orb/circleci/node#quick-start
+  node: circleci/node@5.0.2
 
 workflows:
   test_my_app:
     jobs:
       - node/cheese:
-          version: <node-version> # replace node version
+          version: 16.15.1 # replace node version
